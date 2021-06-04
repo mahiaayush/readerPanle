@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- <link rel="icon" href="assets/favicon.ico"> -->
+<title>Page 3</title> <!-- Bootstrap core CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="assets/bundle.css" rel="stylesheet">
+<link href="assets/responsive.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" ></script> -->
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+<!-- Ionic icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<title>test</title>
+</head>
+
+<body>
+
+
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand mr-5 d-md-none" href="#">Brand Logo </a>
+  <button class="btn btn-outline-secondary btn-sm  d-block d-md-none " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse custom-menu" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+    
+	  
+	  
+    
+      <!--  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-search"></i> Zoom
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Zoom In</a>
+          <a class="dropdown-item" href="#">Zoom Out</a>
+		   <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Fit to Window</a>
+		  <a class="dropdown-item" href="#">Fit to Height</a>
+          <a class="dropdown-item" href="#">Fit to Width</a>
+		  
+        </div>
+      </li> -->
+	  
+	  <!--   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-file-alt"></i> Pages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Go to First Page</a>
+          <a class="dropdown-item" href="#">Go to Previous Page</a>
+		  <div class="d-flex align-items-center my-2 px-4">
+    
+    <div class="col-6 px-0">
+      <input type="text" readonly class="form-control border form-control-sm" id="staticEmail" value="1">
+    </div>
+	<label for="staticEmail" class="col-sm-2 col-form-label px-1">/2</label>
+		  
+      
+        </div>
+		    <a class="dropdown-item" href="#">Go to Next Page</a>
+		  <a class="dropdown-item" href="#">Go to Last Page</a>
+      </li> -->
+	  
+	    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-info-circle"></i> Info
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#about-modal">About</a>
+<!--           <a class="dropdown-item" href="#" data-toggle="modal" data-target="#help-modal">Help</a>
+ -->        
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0 mr-3">
+     
+	  
+	  <div class="input-group">
+  <input type="text" id="searchTxt" class="form-control form-control-sm " placeholder="Type..." aria-label="Search" >
+  <div class="input-group-append">
+    <span class="btn btn-outline-secondary btn-sm searchBtn" >Search</span>
+  </div>
+</div>
+    </form>
+	
+	
+  </div>
+  <button class="openbtn btn btn-outline-secondary btn-sm" onclick="openNav()"><!-- <i class="fas fa-bars"></i> --><i class="fas fa-ellipsis-v" ></i></button>  
+</nav>
+
+<div class="main-reader-box ">
+<main role="main" class="container-fluid">
+
+  <div id="mySidepanel" class="sidepanel">
+  <div  class="closebtn btn btn-secondary btn-sm" onclick="closeNav()"><i class="fas fa-times"></i></div>
+  
+  
+ <!--  <div class="botton-border p-3 text-white text-center">
+  <div class="btn-group btn-group btn-group-sm d-flex" role="group" aria-label="First group">
+    <button type="button" class="btn btn-outline-secondary"><i class="fas fa-file" ></i> </button>
+    <button type="button" class="btn btn-outline-secondary"><i class="fas fa-folder" ></i></button>
+    <button type="button" class="btn btn-outline-secondary"><i class="fas fa-search" ></i></button>
+    <button type="button" class="btn btn-outline-secondary"><i class="fas fa-comments" ></i></button>
+  </div> 
+Heading
+   </div>
+   -->
+   
+   
+   
+  <div class="px-1  mt-3  sidebar-accordian ">
+  
+  
+  <div class="accordion" id="accordionExample">
+  <div class="p-2">
+    <div class="accord-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn text-white btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Table of content <span class="fa fa-angle-right"></span>
+
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class=" mt-3 reader-list position-relative toc-wrapper">
+<ul id="restitle"></ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="p-2">
+    <div class="accord-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Context area <span class="fa fa-angle-right"></span>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse font-13 search-wrapper" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="mt-3 " id="result"></div>
+    </div>
+  </div>
+  
+</div>
+  
+  
+  
+ 
+  
+
+  
+  
+   </div>
+</div>
+  
+  <div class="row">
+  
+  <div class="col-md-12">  <div class="card-header border d-flex align-items-center">
+   
+    <h6 class="mb-0 ">Page 3</h6>
+	<div class="ml-auto ">
+	 <a href="p_1621424172087-p_2.html"><span class=" mr-1 text-dark"><i class="fas fa-arrow-alt-circle-left h4 mb-0"></i></span></a>
+	 <a href="p_1621424172087-p_4.html"><span class=" text-dark"><i class="fas fa-arrow-alt-circle-right h4 mb-0"></i></span></a>
+	</div>
+   
+  </div>
+  <div id="issueviewWindow" class="card shadow-sm wrapper rounded-0 border-0">
+  <div class="card rounded-0  border-0">
+
+
+  
+  <!-- subscribe  start-->
+
+  <!-- <div class="subscribr-overlay">
+    <div class="subscribr-overlay-container  p-2 rounded">
+<div class="subscribe-block card shadow-sm p-3">
+
+<h4> Lorem ipsum dolor sit amet</h4>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+<p><button type="button" class="btn btn-primary  ">Subscribe </button>
+<button type="button" class="btn btn-secondary  ">Login</button></p>
+
+</div>
+  
+  </div>  </div> -->
+
+<!-- subscribe end-->
+
+    <div class="card-body">
+      <div class="issue_contents">
+	  <section class="sections" style="padding:20px 0;background-repeat: no-repeat;background-size: cover;">
+        <div class="containr container" style="min-height:10px;">
+            <h1 class="magb">Page Heading</h1>
+            <p class="magb">Soils gave off most of the greenhouse gases from the ghost forests. Each square meter of ground emitted an average 416 milligrams of CO2, 5.9 milligrams of methane and 0.1 milligrams of nitrous oxide per hour. On average, dead trees released about 116 milligrams of CO2, 0.3 milligrams of methane and 0.04 milligrams of nitrous oxide per square meter per hour — totaling about one-fourth the soil’s emissions.</p>
+            <p class="dinline magb" style="letter-spacing: 0px;width:100%;">Measuring greenhouse gases from the trees is “kind of measuring the last breath of these forests,” says Marcelo Ardón, an ecosystems ecologist and biogeochemist at North Carolina State University. The dead trees “don’t emit a ton, but they are important” to a ghost forest’s overall emissions.</p>
+			</div>
+    </section>
+    <div class="container">
+        <div class="navpage"> <a class="prevp" href="p_1621424172087-p_2.html"><span></span></a> <a class="nextp  " href="p_1621424172087-p_4.html"><span></span></a> </div>
+    </div>
+	
+	</div>
+  </div>
+  </div>
+   
+
+
+    </div> 
+  </div>
+</main>
+
+
+<script src="js/custom.js" ></script>
+
+<!-- Modal about  start-->
+<div class="modal fade" id="about-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered text-light">
+    <div class="modal-content border-0">
+      <div class="modal-header bg-black border-bottom">
+        <h5 class="modal-title" id="about-modal">About Magplusnow Reader</h5>
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body bg-black font-12">
+	  
+	  <div class="d-flex align-items-center">
+	  <div class="about-img mr-3">
+	<img src="images/img3.jpg" alt="..." class="">
+	 
+	
+	  
+      </div>
+	  
+	    <div class="about-content">
+	  <h5 class="h6" > Magplusnow Reader</h5>
+	  	  <p class="mt-3"><a  class="text-info mr-3" href="#">Ver 1.2</a> <a class="text-info" href="#">What's new</a></p>
+
+	  <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+	  </div
+	  
+	 
+     
+    </div>
+	
+  </div>
+  
+ 
+  
+  
+</div>
+ <div class="d-flex justify-content-between bg-dark p-3 font-12 rounded-bottom">
+ <div> <a  class="text-secondary mr-3" href="#">Licence</a>
+  <a  class="text-secondary mr-3" href="#">Policy</a></div>
+  <div  class="text-secondary " >© loremipsum. All rights reserved.</div>
+  </div>
+
+</div></div></div>
+<!-- Modal about  end-->
+
+
+<!-- Modal help  start-->
+<div class="modal fade" id="help-modal" tabindex="-1" aria-labelledby="help-modal" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="help-modal">Help</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<table class="table table-bordered table-sm font-13">
+  <thead>
+    <tr>
+     
+    
+	
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td class="bg-light font-weight-bold align-middle p-2" width="120px" > <i class="fas fa-search"></i> Zoom</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo. Facilisi nullam vehicula ipsum a.</td>
+    
+    </tr>
+   <tr>
+       <td class="bg-light font-weight-bold align-middle p-2" width="120px"> <i class="fas fa-file-alt"></i> Pages</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo. Facilisi nullam vehicula ipsum a.</td>
+    
+    </tr>
+	 <tr>
+       <td class="bg-light font-weight-bold align-middle p-2" width="120px"><i class="fas fa-cogs"></i> Info &amp; Help</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo. Facilisi nullam vehicula ipsum a.</td>
+    
+    </tr>
+  
+  </tbody>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal help  end-->
+
+
+<script src="assets/jquery.min.js"></script>
+<script src="assets/popper.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/jquery.mobile-1.5.0.js"></script>
+<script src="assets/custom.js"></script>
+
+<script type="text/javascript" src="data.json"></script>
+<script src="js/custom.js" ></script>
+<script src="js/jquery.mark.min.js" ></script>
+	
+	
+</body>
+</html>

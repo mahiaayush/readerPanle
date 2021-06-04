@@ -1,0 +1,54 @@
+var data = {
+	"content":[
+  {
+    "name":"Page 1",
+	"path": "index.html",
+    "description":"A team of ecologists went sniffing for tree farts in ghost forests, which form when saltwater from rising sea levels poisons a woodland, leaving behind a marsh full of standing dead trees. These phantom ecosystems are expected to expand with climate change, but it’s unclear exactly how they contribute to the world’s carbon budget."
+  },
+  {
+    "name":"Page 1",
+	"path": "index.html",
+    "description":"The emergence of ghost forests is one of the biggest changes happening in response to sea level rise,” says Keryn Gedan, a coastal ecologist at George Washington University in Washington, D.C., who was not involved in the work. “As forests convert to wetlands, we expect over long timescales that’s going to represent a substantial carbon sink,” she says, since wetlands store more carbon than forests. But in the short term, dead trees decay and stop taking up carbon dioxide through photosynthesis, “so that’s going to be a major greenhouse gas source."
+  },
+  {
+    "name":"Page 2",
+    "path": "p_1621424172087-p_2.html",
+    "description":"To better understand how ghost forests pass gas into the atmosphere, the researchers measured greenhouse gases wafting off dead trees and soil in five ghost forests on the Albemarle-Pamlico Peninsula in North Carolina. “It’s kind of eerie” out there, says Melinda Martinez, a wetland ecologist at North Carolina State University in Raleigh."
+  },
+  {
+    "name":"Page 2",
+    "path": "p_1621424172087-p_2.html",
+    "description":"But Martinez ain’t afraid of no ghost forest. In 2018 and 2019, she measured CO2, methane and nitrous oxide emissions from dead trees using a portable gas analyzer she toted on her back. “I definitely looked like a ghostbuster,” she says."
+  },
+  {
+    "name":"Page 3",
+    "path": "p_1621424172087-p_3.html",
+    "description":"Soils gave off most of the greenhouse gases from the ghost forests. Each square meter of ground emitted an average 416 milligrams of CO2, 5.9 milligrams of methane and 0.1 milligrams of nitrous oxide per hour. On average, dead trees released about 116 milligrams of CO2, 0.3 milligrams of methane and 0.04 milligrams of nitrous oxide per square meter per hour — totaling about one-fourth the soil’s emissions."
+  },
+  {
+    "name":"Page 3",
+    "path": "p_1621424172087-p_3.html",
+    "description":"Measuring greenhouse gases from the trees is “kind of measuring the last breath of these forests,” says Marcelo Ardón, an ecosystems ecologist and biogeochemist at North Carolina State University. The dead trees “don’t emit a ton, but they are important” to a ghost forest’s overall emissions."
+  },
+  {
+    "name":"Page 4",
+    "path": "p_1621424172087-p_4.html",
+    "description":"Ardón coined the term “tree farts” to describe the dead trees’ greenhouse gas emissions. “I have an 8-year-old and an 11-year-old, and fart jokes are what we talk about,” he explains. But the analogy has a biological basis, too. Actual farts are caused by microbes in the body; the greenhouse gases emitted by ghost forests are created by microbes in the soil and trees."
+  },
+  {
+    "name":"Page 4",
+    "path": "p_1621424172087-p_4.html",
+    "description":"In the grand scheme of carbon emissions, ghost forests’ role may be minor. Tree farts, for instance, have nothing on cow burps (SN: 11/18/15). A single dairy cow can emit up to 27 grams of methane — a far more potent greenhouse gas than CO2 — per hour. But accounting for even minor sources of carbon is important for fine-tuning our understanding of the global carbon budget, says Martinez (SN: 10/1/19). So it would behoove scientists not to turn up their noses at ghost tree farts."
+  },
+  {
+    "name":"Page 5",
+    "path": "p_1621424172087-p_5.html",
+    "description":"Cotton plants native to Mexico’s Yucatan Peninsula may all look the same — unkempt and untamed bushes with flowers that shift from pale yellow to violet as pollinators visit them. But genes that have escaped from genetically modified cotton crops have made some of these native plants fundamentally different, changing their biology and the way they interact with insects."
+  },
+  {
+    "name":"Page 5",
+    "path": "p_1621424172087-p_5.html",
+    "description":"One type of escaped gene makes wild cotton exude less nectar. With no means to attract defensive ants that protect it from plant eaters, the cotton is devoured. Another escaped gene makes the wild cotton produce excess nectar, enticing a lot of ants that might keep other insects, including pollinators, at bay, researchers report on January 21 in Scientific Reports."
+  }
+]
+}
